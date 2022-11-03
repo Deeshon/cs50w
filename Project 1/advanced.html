@@ -1,0 +1,101 @@
+<html>
+    <head>
+        <title>Advanced Search</title>
+        <link rel="icon" type="image/x-icon" href="gicon.ico">
+        <style>
+            #section1 {
+                margin: 20px;
+            }
+
+            #txt1 {
+                margin-top: 40px;
+                font-family: arial,sans-serif;
+                font-size: 20px;
+            }
+
+            #section2 {
+                margin-top: 25px;
+                margin-left: 25px;
+                font-family: arial,sans-serif;
+            }
+
+            .s2-ip {
+                height: 25px;
+                width: 500px;
+                
+                
+            }
+
+            .txt2 {
+                font-size: 13px;
+            }
+
+            table {
+                border-spacing: 20px;
+            }
+
+            #ad {
+                padding-left: 585px;
+            }
+
+            #ad_search {
+               
+                background-color: #4d90fe;
+                color: white;
+                border: 1px solid #4d90fe;
+                padding: 7px;
+                border-radius: 2px;
+                font-size: 11px;
+                font-weight: bold;
+                text-align: center;
+
+            }
+
+            #ad_search:hover {
+                background-color: dodgerblue;
+            }
+           
+        </style>
+    </head>
+    <body>
+        <div id="section1">
+            <a href="index.html"><img src="google.png" alt="google" width="74px" name="img"></a>
+        </div>
+        <div id="txt1">
+            <span  style="color:#d93025; padding-left: 40px;">Advanced Search</span>
+
+        </div>
+        <br>
+        <hr>
+
+        <div id="section2">
+             <span style="padding-left: 20px;">Find pages with...</span> 
+            <form action="https://www.google.com/search" id="form">
+                <table>
+                    <tr>
+                        <td class="txt2">all these words:</td>
+                        <td> <input class="s2-ip" type="text" name="as_q"></td>
+                    </tr>
+                    <tr>
+                        <td class="txt2">this exact word or phrase:</td>
+                        <td> <input class="s2-ip" type="text" name="as_epq"></td>
+                    </tr>
+                    <tr>
+                        <td class="txt2">any of these words:</td>
+                        <td><input class="s2-ip" type="text" name="as_oq"></td>
+                    </tr>
+                    <tr>
+                        <td class="txt2">none of these words:</td>
+                        <td><input class="s2-ip" type="text" name="as_eq"></td>                      
+                    </tr>
+                </table>
+                <div id="ad">
+                    <input type="submit" name="submit" value="Advanced Search" id="ad_search">
+                </div>   
+                            
+            </form>
+
+        </div>
+
+    </body>
+</html>

@@ -1,0 +1,96 @@
+<html>
+    <head>
+        <title>Images</title>
+        <link rel="icon" type="image/x-icon" href="gicon.ico">
+        <style>
+
+            #section1 {
+                padding-left: 1450px;
+                padding-top: 15px;
+                
+            }
+
+            #g_btn {
+                font-size: 15px;
+            }
+
+            .s1-ip1 {
+                font-size: 12px;
+                background-color: #f8f9fa;
+                border: 1px solid #f8f9fa;
+                cursor: pointer;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+
+            .s1-ip1:hover {
+                text-decoration: underline;
+            }
+
+
+            #google {
+                margin-top: 125px;
+            }
+
+            #search {
+                padding-top: 20px;
+            }
+           
+            #s2-ip1 {
+                border-radius: 25px;
+                border: 1px solid lightgray;
+                padding: 20px; 
+                width: 550px;
+                height: 3px; 
+                
+            }
+
+            #img_btn {
+                background-color: lightgray;
+                color: black;
+                border: 1px solid lightgrey;
+                padding-top: 7px;
+                padding-bottom: 7px;
+                padding-left: 20px;
+                padding-right: 20px;
+                border-radius: 2px;
+                font-family: Arial, Helvetica, sans-serif;
+
+            }
+
+            #img_btn:hover {
+                background-color: grey;
+            }
+        </style>
+    </head>
+    <body>
+
+        <div id="section1">
+            <form action="index.html">
+                <input id="g_btn" class="s1-ip1" type="submit" value="Google">
+            </form>
+        </div>
+
+        <div id="section2">
+            <div id="google">
+                <center><img src="google.png" alt="google" width="272" height="92"></center>
+                <span style="padding-left: 835; font: 16px/16px roboto-regular, arial, sans-serif; color: blue;">images</span>
+            </div>
+
+            <div id="search">
+                <form action="https://www.google.com/search">
+                    <center><input id="s2-ip1" type="text" name="q"></center>
+                    <br>
+                    <input type="hidden" name="tbm" value="isch">
+                    <center><input id="img_btn" type="submit" name="img_srch"></center>
+                </form>
+            </div>
+        </div>
+        
+    </body>
+</html>
+
+
+
+
+
+
